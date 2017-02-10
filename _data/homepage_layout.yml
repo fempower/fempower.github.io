@@ -1,0 +1,28 @@
+- type: card
+  heading: "Feminist high school workshops"
+  text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
+
+- type: card
+  heading: Host a workshop
+  text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
+  image_url: https://unsplash.it/500/320
+  link_text: "How to host"
+  link_url: /hosting
+
+- type: card
+  heading: Get involved
+  text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
+  image_url: https://unsplash.it/500/320
+  link_text: "Volunteering"
+  link_url: /volunteer
+
+- type: card
+  heading: Donate
+  text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
+  image_url: https://unsplash.it/500/320
+  link_text: "Donate now"
+  link_url: /donate
+
+- type: testimonials
+
+- type: media

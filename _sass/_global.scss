@@ -1,0 +1,35 @@
+/*
+ * Variables
+ */
+
+// Spacing
+$baseline: 1.3rem;
+
+// Colours
+$fp-pink: #cb3694;
+$fp-white: #fffcfe;
+$fp-black: #262626;
+$fp-grey: #808080;
+$fp-light-grey: #cccccc;
+
+// Typography
+$font-stack: "Roboto", "Helvetica", sans-serif;
+
+/*
+ * Global styles
+ */
+html {
+  font-size: 20px;
+}
+
+body {
+  line-height: $baseline;
+  font-family: $font-stack;
+  font-weight: 300;
+  background-color: $fp-white;
+}
+
+h1 {
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+}

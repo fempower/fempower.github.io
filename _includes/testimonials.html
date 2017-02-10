@@ -1,0 +1,8 @@
+<section class="testimonials">
+  {% for testimonial in site.testimonials %}
+    <article class="">
+      <p class="testimonials__quote">{{ testimonial.quote }}</p>
+      <p class="testimonials__attribution">{{ testimonial.attribution }}</p>
+    </article>
+  {% endfor %}
+</section>

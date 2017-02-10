@@ -1,0 +1,7 @@
+name: fEMPOWER Workshops
+markdown: kramdown
+include: ["_pages"]
+
+collections:
+- testimonials
+- media
