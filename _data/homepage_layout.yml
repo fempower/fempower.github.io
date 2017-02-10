@@ -5,14 +5,14 @@
 - type: card
   heading: Host a workshop
   text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
-  image_url: https://unsplash.it/500/300
+  image_url: assets/images/host.png
   link_text: "How to host"
   link_url: /workshops
 
 - type: card
   heading: Get involved
   text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
-  image_url: https://unsplash.it/500/300
+  image_url: assets/images/volunteer.png
   link_text: "Volunteering"
   link_url: /volunteer
   flipped: true
@@ -20,7 +20,7 @@
 - type: card
   heading: Donate
   text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
-  image_url: https://unsplash.it/500/300
+  image_url: assets/images/donate.png
   link_text: "Donate now"
   link_url: /donate
 
