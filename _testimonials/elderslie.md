@@ -1,4 +1,4 @@
 ---
 attribution: "Elderslie high school"
-quote: "Quote quote quote quote"
+quote: "They were great. fEMPOWER did this and that and placeholder long quote to get things mismatching."
 ---

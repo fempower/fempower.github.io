@@ -1,5 +1,5 @@
 <footer class="footer">
-  <p class="footer__item">Footer item</p>
-  <p class="footer__item">Footer item</p>
-  <p class="footer__copyright">Footer copyright</p>
+  {% for link in site.data.footer %}
+    <span class="footer__item"><a href="{{ link.link_url }}">{{ link.title }}</a></span>
+  {% endfor %}
 </footer>

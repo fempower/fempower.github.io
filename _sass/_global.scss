@@ -15,6 +15,7 @@ $fp-white: #fffcfe;
 $fp-black: #262626;
 $fp-grey: #808080;
 $fp-light-grey: #cccccc;
+$fp-light-pink: #f5bae0;
 
 // Typography
 $font-stack: "Roboto", "Helvetica", sans-serif;
@@ -66,6 +67,17 @@ p {
   margin: 0 0 1rem;
 }
 
+a {
+  color: $fp-black;
+
+  &:hover {
+    color: $fp-black;
+  }
+
+  &:visited {
+    color: $fp-black;
+  }
+}
 .small-text {
   font-size: 0.769rem;
   line-height: 1rem;

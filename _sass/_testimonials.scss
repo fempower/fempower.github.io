@@ -1,0 +1,52 @@
+.testimonials__title {
+  text-transform: uppercase;
+  border-bottom: 7px solid $fp-pink;
+  margin: 1rem 0;
+  padding-left: 1rem;
+
+  @media (min-width: $breakpoint) {
+    padding-left: 0;
+  }
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $breakpoint) {
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+
+    & :last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.testimonials__card {
+  background-color: $fp-light-pink;
+  padding: 1rem;
+  margin: 0 1rem 1rem;
+  //align-self: flex-start;
+  flex-basis: 29%;
+
+  @media (min-width: $breakpoint) {
+    margin: 0 1rem 0.5rem 0;
+  }
+}
+
+.testimonials__quote {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.testimonials__attribution {
+  text-weight: 700;
+  text-align: right;
+  margin: 0;
+
+  &:before {
+    content: "— ";
+  }
+}

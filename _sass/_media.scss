@@ -1,0 +1,10 @@
+.media__title {
+  text-transform: uppercase;
+  border-bottom: 7px solid $fp-pink;
+  margin: 1rem 0;
+  padding-left: 1rem;
+
+  @media (min-width: $breakpoint) {
+    padding-left: 0;
+  }
+}

@@ -1,6 +1,8 @@
 .header {
-  width: 50%;
-  margin: auto;
+  @media (min-width: $breakpoint) {
+    width: 50%;
+    margin: auto;
+  }
 }
 
 .header__logo {

@@ -1,13 +1,26 @@
 .footer {
   background-color: $fp-grey;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
+  text-align: center;
+  color: $fp-white;
 }
 
 .footer__item {
-
-}
-
-.footer__copyright {
+  display: block;
   margin: 0;
+  font-size: 0.769rem;
+  line-height: 1rem;
+
+  @media (min-width: $breakpoint) {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: $fp-white;
+    }
+  }
 }
