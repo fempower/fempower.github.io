@@ -1,0 +1,17 @@
+form {
+  background-color: $fp-light-grey;
+  padding: 1rem;
+}
+
+input,
+textarea {
+  border: 1px solid $fp-black;
+  margin-bottom: 1rem;
+}
+
+.form__subtext {
+  display: block;
+  margin: -0.5rem 0 0;
+  font-size: 0.769rem;
+  line-height: 1rem;
+}

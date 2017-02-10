@@ -1,3 +1,30 @@
-<hr>
-<h2>Volunteer form</h2>
-<hr>
+<form class="volunteer__form" action="" method="post">
+  <div>
+    <label for="volunteer-name">Full name:</label>
+    <input type="text" id="name" name="volunteer-name" />
+  </div>
+  <div>
+    <label for="volunteer-age">Age:</label>
+    <input type="text" id="volunteer-age" name="volunteer-age" />
+  </div>
+  <div>
+    <label for="volunteer-gender">What is your gender:</label>
+    <input type="text" id="volunteer-gender" name="volunteer-gender" />
+    <span class="form__subtext">This question is optional, but please be aware not all fEMPOWER workshops are open to male volunteers. Male volunteers are welcome at our co-educational workshops!</span>
+  </div>
+  <div>
+    <label for="volunteer-reason">Why do you want to volunteer for fEMPOWER:</label>
+    <textarea id="volunteer-reason" name="volunteer-reason"></textarea>
+  </div>
+
+  // do you have wwcc radio?
+
+
+  <div>
+    <label for="volunteer-wwwc-number">What is your Working With Children Check (WWCC) number:</label>
+    <input type="text" id="volunteer-wwwc-number" name="volunteer-wwwc-number" />
+  </div>
+
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form>
