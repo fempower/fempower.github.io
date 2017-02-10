@@ -1,0 +1,13 @@
+<section class="hero">
+  {% include header.html %}
+
+  <div class="hero__text">
+    {% if include.heading %}
+      <h1 class="hero__heading">{{ include.heading }}</h1>
+    {% endif %}
+
+    {% if include.text %}
+      <p class="hero__body">{{ include.text }}</p>
+    {% endif %}
+  </div>
+</section>

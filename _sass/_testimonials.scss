@@ -15,12 +15,12 @@
 
   @media (min-width: $breakpoint) {
     flex-direction: row;
-    flex-wrap: no-wrap;
-    justify-content: space-between;
-
-    & :last-child {
-      margin-right: 0;
-    }
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    //& :last-child {
+      //margin-right: 0;
+    //}
   }
 }
 
@@ -29,10 +29,12 @@
   padding: 1rem;
   margin: 0 1rem 1rem;
   //align-self: flex-start;
-  flex-basis: 29%;
+  flex: 1 1 auto;
+  min-width: 25%;
 
   @media (min-width: $breakpoint) {
-    margin: 0 1rem 0.5rem 0;
+    margin: 0 1rem 1rem 0;
+    max-width: 50%;
   }
 }
 

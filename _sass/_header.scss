@@ -2,11 +2,9 @@
   @media (min-width: $breakpoint) {
     width: 50%;
     margin: auto;
+    padding-top: 1rem;
   }
 }
 
 .header__logo {
-  svg {
-    //width: 50%;
-  }
 }

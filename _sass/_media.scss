@@ -8,3 +8,22 @@
     padding-left: 0;
   }
 }
+
+.media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media (min-width: $breakpoint) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.media__item {
+  margin: 0 1rem 1rem;
+
+  @media (min-width: $breakpoint) {
+    flex-basis: 45%;
+  }
+}

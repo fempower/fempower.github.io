@@ -1,0 +1,25 @@
+.hero {
+  background-image: url(/assets/images/5-bnw.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 1rem;
+}
+
+.hero__text {
+  background-color: transparentize($fp-white, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+  @media (min-width: $breakpoint) {
+    width: 50%;
+    margin: 2rem auto 0;
+  }
+}
+
+.hero__heading {
+  margin: 0 0 1rem;
+}
+
+.hero__body {
+  margin: 0;
+}

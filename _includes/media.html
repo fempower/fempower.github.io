@@ -1,10 +1,12 @@
-<h1 class="media__title">In the media</h1>
-<section class="media">
-  <ul class="media__list">
-    {% for item in site.media %}
-      <li class="media__item">
-        <a href="{{ item.link_url }}">{{ item.organisation }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
+<div class="site-contents">
+  <h1 class="media__title">In the media</h1>
+  <section class="media">
+      {% for item in site.media %}
+        <article class="media__item">
+          <a href="{{ item.link_url }}">
+            <img src="{{ item.image_url }}" alt="{{ item.organisation }}"></img>
+          </a>
+        </article>
+      {% endfor %}
+  </section>
+</div>

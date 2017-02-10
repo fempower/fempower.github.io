@@ -1,9 +1,11 @@
-<h1 class="testimonials__title">Testimonials</h1>
-<section class="testimonials">
-  {% for testimonial in site.testimonials %}
-    <article class="testimonials__card">
-      <p class="testimonials__quote">{{ testimonial.quote }}</p>
-      <p class="testimonials__attribution">{{ testimonial.attribution }}</p>
-    </article>
-  {% endfor %}
-</section>
+<div class="site-contents">
+  <h1 class="testimonials__title">Testimonials</h1>
+  <section class="testimonials">
+    {% for testimonial in site.testimonials %}
+      <article class="testimonials__card">
+        <p class="testimonials__quote">{{ testimonial.quote }}</p>
+        <p class="testimonials__attribution">{{ testimonial.attribution }}</p>
+      </article>
+    {% endfor %}
+  </section>
+</div>

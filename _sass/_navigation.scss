@@ -10,21 +10,19 @@
   display: inline-block;
   text-transform: uppercase;
   padding: 0 0.5rem;
-
-  &:hover {
-    color: $fp-black;
-  }
 }
 
 .nav__link {
-  color: $fp-grey;
   text-decoration: none;
+  color: $fp-grey;
+
+  &:visited,
+  &:link,
+  &:active {
+    color: $fp-grey;
+  }
 
   &:hover {
     color: $fp-black;
-  }
-
-  &:visited {
-    color: $fp-grey;
   }
 }

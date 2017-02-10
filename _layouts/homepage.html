@@ -7,6 +7,14 @@ layout: base
     {% include testimonials.html %}
   {% elsif section.type == "media" %}
     {% include media.html %}
+  {% elsif section.type == "hero" %}
+    {% include hero.html
+      heading=section.heading
+      text=section.text
+      link_url=section.link_url
+      link_text=section.link_text
+      image_url=section.image_url
+    %}
   {% elsif section.type == "card" %}
     {% include card.html
       heading=section.heading
@@ -17,9 +25,3 @@ layout: base
     %}
   {% endif %}
 {% endfor %}
-
-
-
-<hr>
-
-{% include card.html %}
