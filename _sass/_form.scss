@@ -3,15 +3,40 @@ form {
   padding: 1rem;
 }
 
+.form__heading {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+label {
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  display: block;
+  width: auto;
+  margin: 1rem 0 0;
+}
+
 input,
-textarea {
+textarea,
+select {
   border: 1px solid $fp-black;
-  margin-bottom: 1rem;
+  margin: 0;
+}
+
+input:focus {
+  border-color: $fp-pink;
+  outline-color: $fp-pink;
+}
+
+textarea {
+  vertical-align: top;
+  resize: vertical;
+  width: auto;
 }
 
 .form__subtext {
   display: block;
-  margin: -0.5rem 0 0;
+  margin: 0;
   font-size: 0.769rem;
   line-height: 1rem;
 }

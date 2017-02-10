@@ -1,12 +1,12 @@
 <div class="site-contents">
   <article class="card">
     {% if include.image_url %}
-      <figure class="card__image">
+      <figure class="card__image {% if include.flipped %}card__image--flipped{% endif %}">
         <img src="{{ include.image_url }}"></img>
       </figure>
     {% endif %}
 
-    <div class="card__text">
+    <div class="card__text {% if include.flipped %}card__text--flipped{% endif %}">
       {% if include.heading %}
         <h1 class="card__heading">{{ include.heading }}</h1>
       {% endif %}
