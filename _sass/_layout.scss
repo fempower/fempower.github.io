@@ -1,0 +1,17 @@
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-wrapper {
+  flex: 1;
+}
+
+.site-contents {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: $breakpoint) {
+    margin: 0 8rem;
+  }
+}

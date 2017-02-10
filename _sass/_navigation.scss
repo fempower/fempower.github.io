@@ -1,0 +1,25 @@
+.nav {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  font-weight: 700;
+  display: inline-block;
+  text-transform: uppercase;
+
+
+}
+
+.nav__link {
+  color: $fp-grey;
+  text-decoration: none;
+
+  &:hover {
+    color: $fp-black;
+
+  &:visited {
+    color: $fp-grey;
+}

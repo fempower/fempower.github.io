@@ -1,12 +1,23 @@
 <article class="card">
+  {% if include.image_url %}
+    <figure class="card__image">
+      <img src="{{ include.image_url }}"></img>
+    </figure>
+  {% endif %}
+
   <div class="card__text">
-    <h1 class="card__heading">{{ include.heading }}</h1>
-    <p class="card__body">{{ include.text }}</p>
-    <a class="card__action-link" href="{{ include.link_url }}">
-      <span class="card__action-text">{{ include.link_text }}</span>
-    </a>
+    {% if include.heading %}
+      <h1 class="card__heading">{{ include.heading }}</h1>
+    {% endif %}
+
+    {% if include.text %}
+      <p class="card__body">{{ include.text }}</p>
+    {% endif %}
+
+    {% if include.link_text %}
+      <a class="card__action-link" href="{{ include.link_url }}">
+        <span class="card__action-text">{{ include.link_text }}</span>
+      </a>
+    {% endif %}
   </div>
-  <figure class="card__image">
-    <img src="{{ include.image_url }}"></img>
-  </figure>
 </article>

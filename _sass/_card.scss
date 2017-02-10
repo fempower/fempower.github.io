@@ -1,13 +1,59 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 0;
+
+  @media (min-width: $breakpoint) {
+    flex-direction: row;
+  }
 }
 .card__text {
+  background-color: $fp-light-grey;
+  margin: 0 1rem;
+  //height: 20rem;
+  align-self: flex-start;
+  z-index: $top;
+
+  @media (min-width: $breakpoint) {
+    margin: 0;
+    order: -1;
+    flex-basis: 50%;
+  }
+}
+
+.card__heading {
+  padding: 1rem 1rem 0;
+}
+
+.card__body {
+  padding: 1rem 1rem 0;
 }
 
 .card__image {
+  margin: 0 0 -10rem;
+
+  @media (min-width: $breakpoint) {
+    flex-basis: 50%;
+    margin: 2rem 0 0 -2rem;
+  }
 }
 
 .card__action-link {
+  display: block;
+  background-color: $fp-pink;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
 }
 
 .card__action-text {
+  color: $fp-white;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+
+  &:after {
+    content: " >>";
+  }
 }
