@@ -1,42 +1,120 @@
 form {
-  background-color: $fp-light-grey;
+  //background-color: $fp-light-grey;
   padding: 1rem;
+  text-align: center;
+
+  @media (min-width: $breakpoint) {
+    padding: 1rem 0;
+  }
 }
 
 .form__heading {
-  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 7px solid $fp-pink;
   margin: 0 0 1rem;
+  padding-left: 1rem;
+
+  @media (min-width: $breakpoint) {
+    padding-left: 0;
+  }
 }
 
-label {
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  display: block;
-  width: auto;
-  margin: 1rem 0 0;
-}
-
-input,
-textarea,
-select {
-  border: 1px solid $fp-black;
-  margin: 0;
-}
-
-input:focus {
-  border-color: $fp-pink;
-  outline-color: $fp-pink;
-}
-
-textarea {
-  vertical-align: top;
-  resize: vertical;
-  width: auto;
+.form__section {
+  margin-bottom: 1rem;
 }
 
 .form__subtext {
   display: block;
-  margin: 0;
+  margin: 0.25rem 0 0;
   font-size: 0.769rem;
   line-height: 1rem;
+
+  @media (min-width: $breakpoint) {
+    width: 50%;
+    margin: 0.25rem auto 0;
+  }
+}
+
+input[type="submit"] {
+  /*height: 2rem;
+  padding: 0.5rem;
+  font-family: $font-stack;
+  text-transform: uppercase;
+  background-color: transparent;*/
+  border: 0;
+  margin: 0 auto;
+  display: block;
+  background-color: $fp-pink;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: $fp-white;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .1rem;
+}
+
+/* Modified skeleton styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 2rem;
+  padding: 6px 0.5rem; /* The 6px vertically centers text on FF, ignored by Webkit */
+  font-family: $font-stack;
+  background-color: $fp-white;
+  border: 1px solid $fp-grey;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  box-sizing: border-box; }
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 4rem;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid $fp-pink;
+  outline: 0;
+}
+label,
+legend {
+  display: block;
+  margin-bottom: .1rem;
+  //font-weight: 600;
+}
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  //font-weight: normal;
 }
