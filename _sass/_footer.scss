@@ -4,6 +4,7 @@
   padding: 0.5rem;
   text-align: center;
   color: $fp-white;
+  border-top: 1px solid $fp-pink;
 
   @media (min-width: $breakpoint) {
     & :last-child {
