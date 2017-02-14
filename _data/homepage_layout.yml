@@ -1,17 +1,17 @@
 - type: hero
-  heading: "Feminist high school workshops"
-  text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
+  heading: "Gender equality workshops"
+  text: "fEMPOWER runs workshops on how to recognise and challenge gender inequality. Our workshops cover a range of material but centre on the harmful effects of gender stereotypes. In particular, how they are linked to violence against women, participation in the workplace and societal expectations more broadly. We pride ourselves on tailoring our workshops to the needs of different schools and have run various workshops in public, private, comprehensive, single sex and selective schools."
 
 - type: card
-  heading: Host a workshop
-  text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
+  heading: "Host a workshop"
+  text: "fEMPOWER is based in Sydney’s Inner West but operates throughout NSW. We are happy to run workshops at all schools, but have a particular interest in schools in low-socioeconomic areas and those with culturally and linguistically diverse students. Our workshop facilitators are volunteers, but we request a compulsory donation from schools to cover our costs."
   image_url: assets/images/host.png
   link_text: "How to host"
   link_url: /workshops
 
 - type: card
   heading: Get involved
-  text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
+  text: "Our organisation’s work is reliant on the contributions of our wonderful volunteers. Volunteers must attend a training session before they can facilitate a workshop. We take volunteers of all genders and ages. Volunteering with us is a relatively flexible commitment as we allow you to opt in or out of workshop opportunities as they arise."
   image_url: assets/images/volunteer.png
   link_text: "Volunteering"
   link_url: /volunteer
@@ -19,7 +19,7 @@
 
 - type: card
   heading: Donate
-  text: "Intro text: Has facilisi abhorreant in, nam at modus iracundia. Vide populo pertinacia sed ea, qui essent suscipit no, graeci habemus epicuri per at. An graecis similique vituperatoribus has, eum stet modus ne. Nullam epicuri recusabo id vim. Est ei ullum inimicus sententiae, ne usu animal eligendi. Omnesque prodesset consetetur pri cu, te quo purto cibo voluptaria."
+  text: "We started as a grassroots organisation operated out of the University of Sydney. Since then, it is the consistent support of community members that has allowed us to expand our program and deliver workshops at more disadvantaged schools in NSW. Donations help us with travel costs, hosting our volunteer training and creating workshop material."
   image_url: assets/images/donate.png
   link_text: "Donate now"
   link_url: /donate
