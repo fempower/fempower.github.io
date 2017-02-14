@@ -4,7 +4,7 @@
 
 - type: card
   heading: "Host a workshop"
-  text: "fEMPOWER is based in Sydney’s Inner West but operates throughout NSW. We are happy to run workshops at all schools, but have a particular interest in schools in low-socioeconomic areas and those with culturally and linguistically diverse students. Our workshop facilitators are volunteers, but we request a compulsory donation from schools to cover our costs."
+  text: "fEMPOWER is based in Sydney’s Inner West but operates throughout NSW. We are happy to run workshops at all schools, but have a particular interest in schools in low socio-economic areas and those with culturally and linguistically diverse students. Our workshop facilitators are volunteers, but we request a compulsory donation from schools to cover our costs."
   image_url: assets/images/host.png
   link_text: "How to host"
   link_url: /workshops
