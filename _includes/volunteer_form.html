@@ -2,7 +2,7 @@
   <h1 class="form__heading">Become a volunteer</h1>
   <div class="form__section">
     <label for="volunteer-name">What is your full name?</label>
-    <input type="text" id="name" name="volunteer-name" />
+    <input type="text" id="volunteer-name" name="volunteer-name" />
   </div>
   <div class="form__section">
     <label for="volunteer-age">What is your age?</label>
@@ -19,7 +19,7 @@
   </div>
   <div class="form__section">
     <label for="volunteer-checked">Do you have a Working With Children Check?</label>
-    <select name="volunteer-checked">
+    <select id="volunteer-checked" name="volunteer-checked">
       <option>Yes</option>
       <option>No</option>
     </select>
@@ -41,6 +41,7 @@
   </div>
   <input type="hidden" name="_subject" value="Website volunteer form submission" />
   <input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_next" value="fempowerworkshops.com" />
   <input type="submit" value="Submit">
 </form>
 <script>

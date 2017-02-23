@@ -1,3 +1,47 @@
-<hr>
-<h2>Hosting form</h2>
-<hr>
+<form id="workshopform" class="workshop__form" method="POST">
+  <h1 class="form__heading">Host a workshop</h1>
+  <div class="form__section">
+    <label for="workshop-name">What is your name?</label>
+    <input type="text" id="workshop-name" name="workshop-name" />
+  </div>
+  <div class="form__section">
+    <label for="workshop-email">What is your email address?</label>
+    <input type="text" id="workshop-email" name="email" />
+  </div>
+  <div class="form__section">
+    <label for="workshop-school">What is the name of your school?</label>
+    <input type="text" id="workshop-school" name="workshop-school" />
+  </div>
+  <div class="form__section">
+    <label for="workshop-role">What is your role at the school? (Student, teacher, other staff.)</label>
+    <input type="text" id="workshop-role" name="workshop-role" />
+  </div>
+
+<p>Public/private and type of workshop questions</p>
+
+  <div class="form__section">
+    <label for="workshop-attendance">Approximately how many students would attend the workshop?</label>
+    <input type="text" id="workshop-attendance" name="workshop-attendance" />
+  </div>
+  <div class="form__section">
+    <label for="workshop-years">Which year group/s would these workshops be attended by?</label>
+    <input type="text" id="workshop-years" name="workshop-years" />
+  </div>
+  <div class="form__section">
+    <label for="workshop-when">When would the workshops be held, and for how long?</label>
+    <select id="workshop-when" name="workshop-when">
+      <option>During lunchtime</option>
+      <option>During the school day</option>
+      <option>After school</option>
+    </select>
+  </div>
+
+  <input type="hidden" name="_subject" value="Website workshop form submission" />
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_next" value="fempowerworkshops.com" />
+  <input type="submit" value="Submit">
+</form>
+<script>
+    var workshopform =  document.getElementById('workshopform');
+    workshopform.setAttribute('action', 'https://formspree.io/' + 'workshops' + '@' + 'fempowerworkshops' + '.' + 'com');
+</script>
