@@ -1,11 +1,11 @@
-<form class="volunteer__form" action="" method="post">
+<form id="volunteerform" class="volunteer__form" method="POST">
   <h1 class="form__heading">Become a volunteer</h1>
   <div class="form__section">
-    <label for="volunteer-name">Full name:</label>
+    <label for="volunteer-name">What is your full name?</label>
     <input type="text" id="name" name="volunteer-name" />
   </div>
   <div class="form__section">
-    <label for="volunteer-age">Age:</label>
+    <label for="volunteer-age">What is your age?</label>
     <input type="text" id="volunteer-age" name="volunteer-age" />
   </div>
   <div class="form__section">
@@ -20,8 +20,8 @@
   <div class="form__section">
     <label for="volunteer-checked">Do you have a Working With Children Check?</label>
     <select name="volunteer-checked">
-      <option value="">Yes</option>
-      <option value="">No</option>
+      <option>Yes</option>
+      <option>No</option>
     </select>
   </div>
   <div class="form__section">
@@ -30,14 +30,20 @@
     <span class="form__subtext">If you don't have one, just leave the field blank.</span>
   </div>
   <div class="form__section">
-    <label for="volunteer-email">What is your email address:</label>
-    <input type="text" id="volunteer-email" name="_replyto" />
+    <label for="volunteer-email">What is your email address?</label>
+    <input type="text" id="volunteer-email" name="email" />
     <span class="form__subtext">We use this for volunteer updates and to let you know about workshops.</span>
   </div>
   <div class="form__section">
-    <label for="volunteer-mobile">What is your mobile number:</label>
+    <label for="volunteer-mobile">What is your mobile number?</label>
     <input type="text" id="volunteer-mobile" name="volunteer-mobile" />
     <span class="form__subtext">We use this for volunteer updates and to let you know about workshops.</span>
   </div>
+  <input type="hidden" name="_subject" value="Website volunteer form submission" />
+  <input type="text" name="_gotcha" style="display:none" />
   <input type="submit" value="Submit">
 </form>
+<script>
+    var volunteerform =  document.getElementById('volunteerform');
+    volunteerform.setAttribute('action', 'https://formspree.io/' + 'volunteers' + '@' + 'fempowerworkshops' + '.' + 'com');
+</script>
