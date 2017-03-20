@@ -6,11 +6,11 @@
   color: $fp-white;
   border-top: 1px solid $fp-pink;
 
-  @media (min-width: $breakpoint) {
-    & :last-child {
-      margin-right: 0;
-    }
-  }
+//  @media (min-width: $breakpoint) {
+  //  & :last-child {
+    //  margin-right: 0;
+  //  }
+//  }
 }
 
 .footer__item {
@@ -30,5 +30,15 @@
     &:hover {
       color: $fp-pink;
     }
+  }
+}
+
+.footer__charity-logo {
+  width: 25%;
+  margin: auto;
+
+  @media (min-width: $breakpoint) {
+    height: 8rem;
+    width: auto;
   }
 }
